@@ -25,5 +25,3 @@ class Test_Kana extends \TestCase
 		$this->assertEquals($expect, k($input));
 	}
 }
-
-?>
