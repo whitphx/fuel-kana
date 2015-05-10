@@ -4,7 +4,7 @@
 一応FuelPHPのパッケージですが，それ以外でも`classes/kana.php`をインポートすれば使えるはずです．
 というか，実体は一行の`preg_replace`なので正規表現をコピペするだけOKです．
 
-一応，FuelPHPのためのブートストラップファイルである`bookstrap.php`にエイリアスが定義してあったりします．
+一応，FuelPHPのためのブートストラップファイルである`bootstrap.php`にエイリアスが定義してあったりします．
 
 ## Kana\Kana::ruby($source)
 `$source`に所定の書式でフリガナを振りたい文字列を入力すると，`<ruby>`タグを付与して出力します．
